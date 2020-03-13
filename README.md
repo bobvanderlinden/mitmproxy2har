@@ -23,7 +23,6 @@ mitmjson recording > recording.json
 pip install mitmjson
 ```
 
-
 ## Development
 
 Use the following to install mitmjson while being able to make changes to `mitmjson.py`:
