@@ -1,15 +1,15 @@
 from setuptools import setup
 
 setup(
-    name='mitmjson',
+    name='mitmjson2har',
     version='0.1',
-    py_modules=['mitmjson'],
+    py_modules=['mitmjson2har'],
     install_requires=[
         'Click',
         'mitmproxy'
     ],
     entry_points='''
         [console_scripts]
-        mitmjson=mitmjson:cli
+        mitmjson2har=mitmjson2har:cli
     ''',
 )
