@@ -212,7 +212,7 @@ def cli(file):
                 "log": {
                     "version": "1.2",
                     "creator": {
-                        "name": "mitmjson2har",
+                        "name": "mitmproxy2har",
                         "version": "0.1"
                     },
                     "entries": IteratorAsList(map(lambda entry: get_entry_from_flow(entry, servers_seen), freader.stream()))
