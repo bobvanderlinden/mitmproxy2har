@@ -14,7 +14,7 @@ http_proxy=http://127.0.0.1:8080 curl http://google.com/
 Then use `mitmproxy2har` to convert the recording to JSON:
 
 ```sh
-mitmproxy2har recording > recording.json
+mitmproxy2har recording > recording.har
 ```
 
 ## Installation
