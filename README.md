@@ -1,6 +1,6 @@
 # mitmproxy2har
 
-A command-line tool to convert mitmproxy recordings to JSON format.
+A command-line tool to convert mitmproxy recordings to [HAR format](https://en.wikipedia.org/wiki/HAR_%28file_format%29).
 
 ## Usage
 
